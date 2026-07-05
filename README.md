@@ -63,5 +63,3 @@ terraform plan -var-file="example.tfvars"
 ## What this doesn't include
 Real ANZ Bank infrastructure, subscription IDs, or proprietary pipeline configs — this repo recreates the same architectural pattern from scratch for demonstration purposes.
 
-## License
-MIT — see [LICENSE](LICENSE)
