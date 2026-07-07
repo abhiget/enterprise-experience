@@ -52,5 +52,3 @@ soc-ai-incident-assistant/
 └── docs/
 ```
 
-## License
-MIT — see [LICENSE](LICENSE)
