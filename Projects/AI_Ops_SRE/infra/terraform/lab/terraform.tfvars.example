@@ -1,0 +1,20 @@
+subscription_id                         = "00000000-0000-0000-0000-000000000000"
+resource_group_name                   = "RG-SRE-AIOPS"
+name_prefix                           = "sreaiops"
+name_suffix                           = "replace"
+log_analytics_retention_days          = 30
+log_analytics_daily_quota_gb           = 1
+eventhub_capacity                     = 1
+enable_subscription_activity_log_export = true
+enable_extended_stack                   = false
+postgres_admin_principal_name           = ""
+postgres_sku_name                       = "B_Standard_B1ms"
+openai_model_name                       = "gpt-4o-mini"
+openai_model_version                    = "2024-07-18"
+openai_deployment_sku                   = "GlobalStandard"
+openai_deployment_capacity              = 1
+
+additional_tags = {
+  owner       = "replace-with-owner"
+  cost_center = "replace-with-cost-center"
+}

@@ -1,0 +1,5 @@
+resource_group_name  = "az-104"
+storage_account_name = "staiopsstate104673"
+container_name       = "tfstate"
+key                  = "aiops-lab.tfstate"
+use_azuread_auth     = true
